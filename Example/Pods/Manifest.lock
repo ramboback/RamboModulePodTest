@@ -1,0 +1,27 @@
+PODS:
+  - FBSnapshotTestCase (2.1.4):
+    - FBSnapshotTestCase/SwiftSupport (= 2.1.4)
+  - FBSnapshotTestCase/Core (2.1.4)
+  - FBSnapshotTestCase/SwiftSupport (2.1.4):
+    - FBSnapshotTestCase/Core
+  - RamboModulePodTest (0.1.0)
+
+DEPENDENCIES:
+  - FBSnapshotTestCase
+  - RamboModulePodTest (from `../`)
+
+SPEC REPOS:
+  trunk:
+    - FBSnapshotTestCase
+
+EXTERNAL SOURCES:
+  RamboModulePodTest:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  FBSnapshotTestCase: 094f9f314decbabe373b87cc339bea235a63e07a
+  RamboModulePodTest: 264ac8e662078b3f9967caf83f8d85efc82eacf6
+
+PODFILE CHECKSUM: d448b8de44cdd2668f224abcaba0d54599302344
+
+COCOAPODS: 1.8.4

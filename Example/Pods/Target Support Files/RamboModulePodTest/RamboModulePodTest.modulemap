@@ -1,0 +1,6 @@
+framework module RamboModulePodTest {
+  umbrella header "RamboModulePodTest-umbrella.h"
+
+  export *
+  module * { export * }
+}
